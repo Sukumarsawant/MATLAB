@@ -1,0 +1,22 @@
+Accessing Data in Matrices
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+M = [9 7 10 10 5; 10 1 10 5 10; 2 3 2 9 8; 0 6 10 2 10]
+
+Task 1
+
+Msmall = [ M(2,2)  M(3,2)  M(2,4)  M(3,4)]
+
+Task 2
+Minside = [ M(2,2)  M(3,2) M(2,3)  M(3,3) M(2,4)  M(3,4)]
+
+
+Task 3
+Mcorners = [ M(1,1) M(4,1)   M(1,5)  M(4,5)  ]
+
+
+Further Practice
+
+
+
