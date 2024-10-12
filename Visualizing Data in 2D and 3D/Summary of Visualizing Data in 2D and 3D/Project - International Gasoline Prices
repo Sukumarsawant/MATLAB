@@ -1,0 +1,22 @@
+International Gas Prices
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load gasprices
+cost = prices.*litPerYear/litPerGal;
+avgCost = mean(cost);
+
+Task 1
+
+plot(yr,cost)
+legend(country,"Location","eastoutside")
+
+Task 2
+bar(avgCost)
+ylabel("Gasoline Cost (USD)")
+xticklabels(country)
+
+
+Further Practice
+
+
