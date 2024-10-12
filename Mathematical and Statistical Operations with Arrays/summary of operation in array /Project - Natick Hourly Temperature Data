@@ -1,0 +1,22 @@
+Temperatures in Natick, MA
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load natickData
+whos
+
+Task 1
+tempSd = std(tempData);
+[maxSd,monthSd] = max(tempSd);
+
+Task 2
+tempRange = max(tempData) - min(tempData);
+[maxR,monthMaxR] = max(tempRange)
+
+Task 3
+tempRange = max(tempData) - min(tempData);
+[minR,monthMinR] = min(tempRange)
+
+Further Practice
+
+
