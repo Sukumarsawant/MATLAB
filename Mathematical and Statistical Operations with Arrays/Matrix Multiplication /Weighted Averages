@@ -1,0 +1,20 @@
+Weighted Average
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load electricity
+plot(price)
+title("Monthly Electricity Prices from 1990 to 2019")
+xlabel("Month")
+
+Task 1
+
+w = (dollar2019 / sum(dollar2019))'
+
+Task 2
+a = price * w
+
+
+Further Practice
+
+
