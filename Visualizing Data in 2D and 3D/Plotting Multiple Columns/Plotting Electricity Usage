@@ -1,0 +1,23 @@
+Monthly and Quarterly Electricity Data
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load electricity
+revenue = price.*usage;
+
+Task 1
+plot(mth,usage)
+
+Task 2
+plot(yr,usage)
+
+Task 3
+firstMonth = revenue(1:3:12,:);
+plot(yr,firstMonth)
+legend(Q,"Location","northwest")
+xlabel("Year")
+ylabel("Revenue (US$)")
+
+Further Practice
+
+
