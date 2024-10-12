@@ -1,0 +1,21 @@
+Temperatures in Boston
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load bostonData
+
+Task 1
+plot(temperatures)
+legend("Lows","Highs")
+
+
+Task 2
+lowT = min(temperatures(:,1))
+highT = max(temperatures(:,2))
+yline(lowT,"b")
+yline(highT,"r")
+
+
+Further Practice
+
+
