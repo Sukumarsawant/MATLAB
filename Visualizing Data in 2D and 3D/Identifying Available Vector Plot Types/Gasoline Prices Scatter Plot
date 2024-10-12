@@ -1,0 +1,22 @@
+Scatter plots
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load gasprices.mat
+whos
+
+Task 1
+
+scatter(Australia , Canada)
+
+Task 2
+scatter(Australia ,Canada , 100)
+
+
+Task 3
+scatter(Australia,Canada,50,"r")
+
+
+Further Practice
+
+
