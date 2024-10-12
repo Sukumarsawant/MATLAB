@@ -1,0 +1,21 @@
+International Gasoline Prices
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+Task 1
+load gasprices.mat
+
+
+
+Task 2
+
+pricesYPL = pricesDPG.*cx(:,6)/litPerGal
+
+Task 3
+
+totCost = mean(pricesYPL .* litPerYear)
+
+
+Further Practice
+
+
+
