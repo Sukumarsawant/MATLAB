@@ -1,0 +1,24 @@
+stairs, stem, and area
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load gasprices
+Aus_Can = Australia-Canada;
+plot(Year,Aus_Can)
+whos
+
+Task 1
+stairs(Year,Aus_Can)
+
+
+Task 2
+
+stem(Year,Aus_Can)
+
+Task 3
+area(Year,Aus_Can)
+
+
+Further Practice
+
+
