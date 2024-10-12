@@ -1,0 +1,52 @@
+Plotting Electricity Stats by Year and Month
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load electricity
+usage = ind+res+com;
+yr = 1990:2019;
+
+Task 1
+annual = mean(usage,"omitnan")
+plot(yr,annual)
+
+
+
+Task 2
+plot(yr,annual)
+
+
+hold on
+plot(yr,max(usage))
+plot(yr,min(usage))
+hold off
+
+Task 3
+
+monthly= mean(usage,2,"omitnan")
+bar(monthly) %didnt know this
+
+Task 4
+maxUsage = max(usage,[],2,"omitnan")
+minUsage = min(usage,[],2,"omitnan")
+
+
+Task 5
+plot(minUsage)
+hold on 
+plot(maxUsage)
+hold off
+
+
+Task 6
+avgUse = mean(usage,"all","omitnan")
+minUse = min(usage,[],"all","omitnan")
+maxUse = max(usage,[],"all","omitnan")
+
+
+
+Further Practice
+
+
+
+
