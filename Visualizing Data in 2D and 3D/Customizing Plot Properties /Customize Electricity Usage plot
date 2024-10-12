@@ -1,0 +1,20 @@
+Plot Electricity Trend
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load resElectricity
+whos
+
+Task 1
+plot(yr,residential,"o-","MarkerSize",3,"MarkerFaceColor",[0.7 0.9 1])
+
+
+Task 2
+hold on
+plot(yr,resFitted,"r","LineWidth",2)
+hold off
+
+
+Further Practice
+
+
