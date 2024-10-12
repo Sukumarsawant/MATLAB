@@ -1,0 +1,27 @@
+Electricity Revenue and Usage
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load electricity
+revenue = price.*usage;
+size(revenue)
+
+Task 1
+surf(revenue)
+
+
+Task 2
+surf(yr,mth,revenue)
+
+
+Task 3
+mesh(yr,mth,revenue)
+
+
+Task 4
+contour(yr,mth,revenue)
+
+
+Further Practice
+
+
