@@ -1,0 +1,17 @@
+Plot Matrix Columns II
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code sets up the activity.
+load electricity
+revenue = price.*usage;
+
+Task 1
+plot(yr,revenue)
+xlabel("Year")
+
+Task 2
+plot(yr,revenue,"--","LineWidth",2)
+
+Further Practice
+
+
