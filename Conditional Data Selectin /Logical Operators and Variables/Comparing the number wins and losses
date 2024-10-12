@@ -1,0 +1,24 @@
+Winning Records
+Instructions are in the task pane to the left. Complete and submit each task one at a time.
+
+This code loads the data.
+load results
+whos
+
+Task 1
+homewinning = homeWins > homeLosses
+awaywinning = awayWins > awayLosses
+
+Task 2
+winning = homewinning & awaywinning
+
+
+Task 3
+homewinningonly = homewinning & ~awaywinning
+
+
+Further Practice
+
+
+
+
